@@ -118,6 +118,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "skoolcleanup";
+            this.Tag = "skoolCleanup";
             this.Text = "skool cleanup";
             this.Load += new System.EventHandler(this.skoolcleanup_Load);
             this.ResumeLayout(false);

@@ -61,6 +61,7 @@
             this.MinimizeBox = false;
             this.Name = "themeSelector";
             this.Padding = new System.Windows.Forms.Padding(3, 24, 3, 3);
+            this.Tag = "themeSel";
             this.Text = "Theme";
             this.Load += new System.EventHandler(this.themeSelector_Load);
             this.ResumeLayout(false);

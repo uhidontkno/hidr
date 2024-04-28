@@ -11,7 +11,6 @@ C:\Users\rare\source\repos\hidr.git\bin\Debug\hidr.exe.config
 C:\Users\rare\source\repos\hidr.git\bin\Debug\hidr.exe
 C:\Users\rare\source\repos\hidr.git\bin\Debug\hidr.pdb
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.csproj.AssemblyReference.cache
-C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.index.resources
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.Properties.Resources.resources
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.csproj.GenerateResource.cache
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.csproj.CoreCompileInputs.cache
@@ -21,3 +20,4 @@ C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.pdb
 C:\Users\rare\source\repos\hidr.git\bin\Debug\MaterialSkin.dll
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.themeSelector.resources
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.skoolcleanup.resources
+C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.index.resources

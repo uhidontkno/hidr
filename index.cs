@@ -13,8 +13,10 @@ using MaterialSkin;
 using MaterialSkin.Controls;
 namespace hidr
 {
-    public partial class index : MaterialForm
+    
+        public partial class index : MaterialForm
     {
+
         public index()
         {
             InitializeComponent();
@@ -25,38 +27,84 @@ namespace hidr
             materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue900, Accent.Blue200, TextShade.WHITE);
             
         }
-        // Size formsize = new index().Size;
-        private void index_Load(object sender, EventArgs e)
+        static bool vanished = false;
+       
+        async private void index_Load(object sender, EventArgs e)
         {
             
             Size formsize = this.Size;
             formsize.Height = formsize.Height - 67;
             this.MaximumSize = formsize;
             this.MinimumSize = formsize;
-          
+            this.Tag = "mainWindow";
+            while (true) {
+                await Task.Delay(100);
+                if (Keyboard.IsKeyDown(Keys.F4)) {
+                    if (vanished == true)
+                    {
+                        vanished = false; this.Show();
+                        foreach (Form form in Application.OpenForms.Cast<Form>().ToList())
+                        {
+                            form.Show();
+                        }
+                    }
+                    else {
+                        vanished = true; this.Hide();
+                        foreach (Form form in Application.OpenForms.Cast<Form>().ToList())
+                        {
+                                form.Hide();
+                            
+                        }
+                    }
+                }
+            }
 
         }
 
 
-        private void themeBtn_Click(object sender, EventArgs e)
+
+        public abstract class Keyboard
         {
+            [Flags]
+            private enum KeyStates
+            {
+                None = 0,
+                Down = 1,
+                Toggled = 2
+            }
 
+            [DllImport("user32.dll", CharSet = CharSet.Auto, ExactSpelling = true)]
+            private static extern short GetKeyState(int keyCode);
+
+            private static KeyStates GetKeyState(Keys key)
+            {
+                KeyStates state = KeyStates.None;
+
+                short retVal = GetKeyState((int)key);
+
+                //If the high-order bit is 1, the key is down
+                //otherwise, it is up.
+                if ((retVal & 0x8000) == 0x8000)
+                    state |= KeyStates.Down;
+
+                //If the low-order bit is 1, the key is toggled.
+                if ((retVal & 1) == 1)
+                    state |= KeyStates.Toggled;
+
+                return state;
+            }
+
+            public static bool IsKeyDown(Keys key)
+            {
+                return KeyStates.Down == (GetKeyState(key) & KeyStates.Down);
+            }
+
+            public static bool IsKeyToggled(Keys key)
+            {
+                return KeyStates.Toggled == (GetKeyState(key) & KeyStates.Toggled);
+            }
         }
 
-        private void materialDrawer1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void tabPage2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void tabPage2_Layout(object sender, LayoutEventArgs e)
         {
@@ -73,22 +121,29 @@ namespace hidr
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
-            new skoolcleanup().Show();
+            new skoolcleanup().ShowDialog();
         }
 
         private void materialButton2_Click(object sender, EventArgs e)
         {
-           
+            MessageBox.Show("Press F4 to respawn me. (Use the F4 keybind to bypass this message)","Info",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            vanished = true; this.Hide();
+            foreach (Form form in Application.OpenForms.Cast<Form>().ToList())
+            {
+                if (form.Tag?.ToString() != "mainWindow")
+                {
+                    form.Hide();
+                }
+            }
         }
 
         private void index_KeyPress(object sender, KeyPressEventArgs e)
         {
-            MessageBox.Show(e.KeyChar.ToString());
         }
 
         private void index_KeyDown(object sender, KeyEventArgs e)
         {
-            MessageBox.Show(e.ToString());
+           
         }
     }
 }
