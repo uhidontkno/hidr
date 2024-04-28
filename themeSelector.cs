@@ -24,6 +24,9 @@ namespace hidr
 
         private void themeSelector_Load(object sender, EventArgs e)
         {
+            Size formsize = this.Size;
+            this.MaximumSize = formsize;
+            this.MinimumSize = formsize;
             var materialSkinManager = MaterialSkinManager.Instance;
                 if (materialSkinManager.Theme == MaterialSkinManager.Themes.LIGHT) {
                 materialSwitch1.Checked = false;

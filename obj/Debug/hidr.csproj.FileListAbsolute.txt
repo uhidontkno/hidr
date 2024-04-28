@@ -20,3 +20,4 @@ C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.exe
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.pdb
 C:\Users\rare\source\repos\hidr.git\bin\Debug\MaterialSkin.dll
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.themeSelector.resources
+C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.skoolcleanup.resources
