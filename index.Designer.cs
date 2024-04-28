@@ -101,12 +101,12 @@
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(3, 3);
+            this.materialLabel1.Location = new System.Drawing.Point(7, 7);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(54, 19);
+            this.materialLabel1.Size = new System.Drawing.Size(14, 19);
             this.materialLabel1.TabIndex = 0;
-            this.materialLabel1.Text = "Unused";
+            this.materialLabel1.Text = "hi";
             // 
             // index
             // 
@@ -136,8 +136,8 @@
         private MaterialSkin.Controls.MaterialTabControl tabs;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
     }
 }
 
