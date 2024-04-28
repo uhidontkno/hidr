@@ -10,6 +10,18 @@ using System.Threading.Tasks;
 
 namespace hidr
 {
+    public static class ProcessExtensions
+{
+    public static Task<bool> WaitForExitAsync(this Process process)
+    {
+        var tcs = new TaskCompletionSource<bool>();
+
+        process.EnableRaisingEvents = true;
+        process.Exited += (sender, args) => tcs.TrySetResult(true);
+
+        return tcs.Task;
+    }
+}
     internal class cabfiles
     {
 
@@ -20,8 +32,8 @@ namespace hidr
             cab.Unpack(extractPath);
         }
 
-       
-       public static string RunMathSolverCab(string cabFile, string parameters)
+
+        async public static Task<string> RunMathSolverCab(string cabFile, string parameters)
         {
             string extractPath = Path.Combine(Path.GetTempPath(), Path.GetRandomFileName());
 
@@ -42,9 +54,17 @@ namespace hidr
                 psi.CreateNoWindow = true;
                 using (Process process = Process.Start(psi))
                 {
-                    string output = process.StandardOutput.ReadToEnd();
-                    process.WaitForExit();
-                    return output;
+                    using (StreamReader reader = process.StandardOutput)
+                    {
+                        StringBuilder outputBuilder = new StringBuilder();
+                        string line;
+                        while ((line = await reader.ReadLineAsync()) != null)
+                        {
+                            outputBuilder.AppendLine(line);
+                        }
+                        await process.WaitForExitAsync();
+                        return outputBuilder.ToString();
+                    }
                 }
             }
             finally

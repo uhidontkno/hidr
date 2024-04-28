@@ -45,7 +45,7 @@
             this.materialLabel2.Location = new System.Drawing.Point(13, 50);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(322, 20);
+            this.materialLabel2.Size = new System.Drawing.Size(349, 20);
             this.materialLabel2.TabIndex = 4;
             this.materialLabel2.Text = "Solve, simplify, or factorize anything.";
             this.materialLabel2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -59,7 +59,7 @@
             this.materialLabel1.Location = new System.Drawing.Point(13, 9);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(322, 41);
+            this.materialLabel1.Size = new System.Drawing.Size(344, 41);
             this.materialLabel1.TabIndex = 3;
             this.materialLabel1.Text = "Math Solver";
             this.materialLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -97,12 +97,16 @@
             // 
             // output
             // 
-            this.output.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.output.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.output.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.output.Font = new System.Drawing.Font("Consolas", 10F);
+            this.output.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(184)))), ((int)(((byte)(184)))));
             this.output.Location = new System.Drawing.Point(12, 214);
             this.output.Multiline = true;
             this.output.Name = "output";
             this.output.ReadOnly = true;
-            this.output.Size = new System.Drawing.Size(350, 92);
+            this.output.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.output.Size = new System.Drawing.Size(350, 139);
             this.output.TabIndex = 6;
             // 
             // materialLabel3
@@ -171,7 +175,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(370, 318);
+            this.ClientSize = new System.Drawing.Size(370, 365);
             this.Controls.Add(this.materialButton1);
             this.Controls.Add(this.operation);
             this.Controls.Add(this.materialLabel3);

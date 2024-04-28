@@ -20,9 +20,11 @@ namespace hidr
             var materialSkinManager = MaterialSkinManager.Instance;
             this.BackColor = materialSkinManager.BackdropColor;
         }
-
-        private void materialButton1_Click(object sender, EventArgs e)
+        static bool solved = false;
+        static int time = 0;
+        async private void materialButton1_Click(object sender, EventArgs e)
         {
+            solved = false;
             string operationStr = "";
             if (operation.SelectedIndex == 0)
             {
@@ -45,7 +47,46 @@ namespace hidr
                 MessageBox.Show("Type in a valid problem.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            output.Text = cabfiles.RunMathSolverCab(Path.Combine(Directory.GetCurrentDirectory(),"Resources/CAB0.cab"),operationStr+" "+problem.Text);
+            
+            output.Text = "Solving...";
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+            Task.Run(async () =>
+            {
+                
+                while (solved == false)
+                {
+
+                    await Task.Delay(67);
+                    time = time + 67;
+                    if (!solved)
+                    {
+                        Invoke((Action)(() =>
+                        {
+                            output.Text = $"Solving... ({time}ms)";
+                        }));
+                    }
+                    else { break;  }
+                }
+            });
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
+            await Task.Run(async () =>
+            {
+                string result = await cabfiles.RunMathSolverCab(Path.Combine(Directory.GetCurrentDirectory(), "Resources/CAB0.cab"), operationStr + " \"" + problem.Text + "\"");
+                solved = true;
+                Invoke((Action)(() =>
+                {
+                    output.Text = result + $"\nTook {(float)time / 1000}s";
+                }));
+                time = 0;
+            });
+            
+        }
+        static double EvaluateExpression(string expression)
+        {
+            DataTable dt = new DataTable();
+            object result = dt.Compute(expression, "");
+
+            return Convert.ToDouble(result);
         }
 
         private void MathSolver_Load(object sender, EventArgs e)

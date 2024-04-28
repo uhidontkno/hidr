@@ -23,3 +23,5 @@ C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.skoolcleanup.resources
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.index.resources
 C:\Users\rare\source\repos\hidr.git\bin\Debug\Resources\CAB0.cab
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.MathSolver.resources
+C:\Users\rare\source\repos\hidr.git\bin\Debug\Microsoft.Deployment.Compression.Cab.dll
+C:\Users\rare\source\repos\hidr.git\bin\Debug\Microsoft.Deployment.Compression.dll
