@@ -24,7 +24,7 @@ namespace hidr
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue900, Accent.Blue200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.Blue200, Accent.Blue200, TextShade.WHITE);
             
         }
         static bool vanished = false;

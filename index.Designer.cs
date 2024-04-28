@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(index));
             this.tabs = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
@@ -156,11 +157,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 443);
+            this.ClientSize = new System.Drawing.Size(331, 443);
             this.Controls.Add(this.tabs);
             this.DrawerIndicatorWidth = 4;
             this.DrawerTabControl = this.tabs;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "index";
             this.Sizable = false;

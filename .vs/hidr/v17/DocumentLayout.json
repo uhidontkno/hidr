@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\rare\\source\\repos\\hidr.git\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|c:\\users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:skoolcleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|c:\\users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:skoolcleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,7 +61,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "skoolcleanup.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
               "RelativeDocumentMoniker": "skoolcleanup.cs",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "index.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
               "RelativeDocumentMoniker": "index.cs",
@@ -85,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "themeSelector.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\themeSelector.cs",
               "RelativeDocumentMoniker": "themeSelector.cs",
@@ -97,13 +97,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.cs",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
               "RelativeDocumentMoniker": "index.cs",
               "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
               "RelativeToolTip": "index.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAQwIAAAABgAAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAQwHsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T02:28:04.967Z",
               "EditorCaption": ""
@@ -128,7 +128,7 @@
               "RelativeDocumentMoniker": "index.Designer.cs",
               "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.Designer.cs",
               "RelativeToolTip": "index.Designer.cs",
-              "ViewState": "AQIAAK4AAAAAAAAAAAAgwKMAAAAAAAAA",
+              "ViewState": "AQIAALAAAAAAAAAAAAAgwKUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T03:08:52.849Z",
               "EditorCaption": ""
