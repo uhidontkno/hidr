@@ -34,6 +34,7 @@ namespace hidr
             
             Size formsize = this.Size;
             formsize.Height = formsize.Height - 67;
+            formsize.Width = formsize.Width - 17;
             this.MaximumSize = formsize;
             this.MinimumSize = formsize;
             this.Tag = "mainWindow";
