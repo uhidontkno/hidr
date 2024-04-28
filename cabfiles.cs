@@ -39,7 +39,7 @@ namespace hidr
                 private delegate IntPtr ExtractCallbackDelegate();
 
 
-        static void ExtractCabFile(string cabFile, string extractPath)
+        public static void ExtractCabFile(string cabFile, string extractPath)
         {
                ExtractCallbackDelegate extractCallbackDelegate = ExtractCallback;
                int error = 0;
@@ -54,10 +54,10 @@ namespace hidr
                 0,
                 ref error);
 
-            if (hfdi == IntPtr.Zero)
-            {
-                throw new Exception($"Failed to create cabinet handle. Error code: {error}");
-            }
+           // if (hfdi == IntPtr.Zero)
+           // {
+           //     throw new Exception($"Failed to create cabinet handle. Error code: {error}");
+           // }
 
             try
             {
@@ -76,7 +76,7 @@ namespace hidr
         {
             return IntPtr.Zero;
         }
-        static string RunMathSolverCab(string cabFile, string parameters)
+       public static string RunMathSolverCab(string cabFile, string parameters)
         {
             string extractPath = Path.Combine(Path.GetTempPath(), Path.GetRandomFileName());
 

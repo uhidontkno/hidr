@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:cabfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|c:\\users\\rare\\source\\repos\\hidr.git\\mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|c:\\users\\rare\\source\\repos\\hidr.git\\mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -19,15 +23,19 @@
       "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:skoolcleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|hidr||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|c:\\users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:skoolcleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,10 +44,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|c:\\users\\rare\\source\\repos\\hidr.git\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,8 +53,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MathSolver.cs",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\MathSolver.cs",
+              "RelativeDocumentMoniker": "MathSolver.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\MathSolver.cs",
+              "RelativeToolTip": "MathSolver.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAADwvykAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:29:14.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MathSolver.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\MathSolver.cs",
+              "RelativeDocumentMoniker": "MathSolver.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\MathSolver.cs [Design]",
+              "RelativeToolTip": "MathSolver.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:20:34.899Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -59,31 +92,27 @@
               "RelativeDocumentMoniker": "cabfiles.cs",
               "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\cabfiles.cs",
               "RelativeToolTip": "cabfiles.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAowBQAAABGAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAgwDsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T21:34:12.568Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "index.cs",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
               "RelativeDocumentMoniker": "index.cs",
               "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
               "RelativeToolTip": "index.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAwCMAAAAxAAAA",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAYwJcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T02:28:04.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "skoolcleanup.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
               "RelativeDocumentMoniker": "skoolcleanup.cs",
@@ -95,19 +124,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "hidr",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidr.csproj",
               "RelativeDocumentMoniker": "hidr.csproj",
               "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidr.csproj",
               "RelativeToolTip": "hidr.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-28T01:19:13.784Z",
+              "WhenOpened": "2024-04-28T01:19:13.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "skoolcleanup.cs",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
+              "RelativeDocumentMoniker": "skoolcleanup.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
+              "RelativeToolTip": "skoolcleanup.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:45:44.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "index.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
               "RelativeDocumentMoniker": "index.cs",
@@ -119,32 +160,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "themeSelector.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\themeSelector.cs",
               "RelativeDocumentMoniker": "themeSelector.cs",
               "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\themeSelector.cs [Design]",
               "RelativeToolTip": "themeSelector.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T02:59:38.315Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-28T02:59:38.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "skoolcleanup.cs",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
-              "RelativeDocumentMoniker": "skoolcleanup.cs",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
-              "RelativeToolTip": "skoolcleanup.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEkAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T14:45:44.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "themeSelector.cs",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\themeSelector.cs",
               "RelativeDocumentMoniker": "themeSelector.cs",
@@ -152,12 +179,11 @@
               "RelativeToolTip": "themeSelector.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAA1wBwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T02:59:50.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T02:59:50.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

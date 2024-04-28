@@ -146,5 +146,10 @@ namespace hidr
         {
            
         }
+
+        private void materialButton3_Click(object sender, EventArgs e)
+        {
+            new MathSolver().ShowDialog();
+        }
     }
 }
