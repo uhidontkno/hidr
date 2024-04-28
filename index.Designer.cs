@@ -41,6 +41,7 @@
             // 
             // tabs
             // 
+            this.tabs.Appearance = System.Windows.Forms.TabAppearance.Buttons;
             this.tabs.Controls.Add(this.tabPage1);
             this.tabs.Controls.Add(this.tabPage2);
             this.tabs.Depth = 0;
@@ -50,30 +51,32 @@
             this.tabs.Multiline = true;
             this.tabs.Name = "tabs";
             this.tabs.SelectedIndex = 0;
+            this.tabs.ShowToolTips = true;
             this.tabs.Size = new System.Drawing.Size(322, 381);
             this.tabs.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.materialLabel2);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(314, 355);
+            this.tabPage1.Size = new System.Drawing.Size(314, 352);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Home";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // materialLabel2
             // 
+            this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel2.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
             this.materialLabel2.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.materialLabel2.Location = new System.Drawing.Point(70, 3);
+            this.materialLabel2.Location = new System.Drawing.Point(65, 3);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(206, 41);
+            this.materialLabel2.Size = new System.Drawing.Size(183, 29);
             this.materialLabel2.TabIndex = 1;
             this.materialLabel2.Text = "Welcome to hidr!";
             this.materialLabel2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -82,10 +85,10 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.materialLabel1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(283, 292);
+            this.tabPage2.Size = new System.Drawing.Size(314, 352);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Change Theme";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -111,10 +114,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(319, 444);
             this.Controls.Add(this.tabs);
-            this.DrawerBackgroundWithAccent = true;
-            this.DrawerIndicatorWidth = 8;
+            this.DrawerIndicatorWidth = 4;
             this.DrawerTabControl = this.tabs;
-            this.DrawerUseColors = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -123,6 +124,7 @@
             this.Load += new System.EventHandler(this.index_Load);
             this.tabs.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
