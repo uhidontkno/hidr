@@ -26,6 +26,12 @@ namespace hidr
 
         private void index_Load(object sender, EventArgs e)
         {
+            themeBtn.BackColor = Color.White;
+        }
+
+
+        private void themeBtn_Click(object sender, EventArgs e)
+        {
 
         }
     }
