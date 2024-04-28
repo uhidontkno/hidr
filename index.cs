@@ -16,5 +16,10 @@ namespace hidr
         {
             InitializeComponent();
         }
+
+        private void index_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
