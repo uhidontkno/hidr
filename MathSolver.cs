@@ -24,7 +24,7 @@ namespace hidr
         static int time = 0;
         async private void materialButton1_Click(object sender, EventArgs e)
         {
-            solved = false;
+            solved = false; time = 0;
             string operationStr = "";
             if (operation.SelectedIndex == 0)
             {
@@ -47,6 +47,7 @@ namespace hidr
                 MessageBox.Show("Type in a valid problem.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+           
             
             output.Text = "Solving...";
 #pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
@@ -56,8 +57,8 @@ namespace hidr
                 while (solved == false)
                 {
 
-                    await Task.Delay(67);
-                    time = time + 67;
+                    await Task.Delay(39);
+                    time = time + 39;
                     if (!solved)
                     {
                         Invoke((Action)(() =>
@@ -68,17 +69,27 @@ namespace hidr
                     else { break;  }
                 }
             });
+            Random r = new Random();
+            await Task.Delay(16);
 #pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
-            await Task.Run(async () =>
+            if (operation.SelectedIndex != 0)
             {
-                string result = await cabfiles.RunMathSolverCab(Path.Combine(Directory.GetCurrentDirectory(), "Resources/CAB0.cab"), operationStr + " \"" + problem.Text + "\"");
-                solved = true;
-                Invoke((Action)(() =>
+                await Task.Run(async () =>
                 {
-                    output.Text = result + $"\nTook {(float)time / 1000}s";
-                }));
-                time = 0;
-            });
+                    string result = await cabfiles.RunMathSolverCab(Path.Combine(Directory.GetCurrentDirectory(), "Resources/CAB0.cab"), operationStr + " \"" + problem.Text + "\"");
+                    solved = true;
+                    Invoke((Action)(() =>
+                    {
+                        output.Text = result + $"\nTook {(float)time / 1000}s";
+                    }));
+                    time = 0;
+                });
+            } else
+            {
+                double result = EvaluateExpression(problem.Text);
+                output.Text = $"Problem: {problem.Text}\r\nSolution: {result}\r\n\r\nTook {(float)time}ms";
+                solved = true;
+            }
             
         }
         static double EvaluateExpression(string expression)

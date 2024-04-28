@@ -185,6 +185,7 @@
             this.Controls.Add(this.materialLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MathSolver";
+            this.ShowIcon = false;
             this.Text = "Math Solver";
             this.Load += new System.EventHandler(this.MathSolver_Load);
             this.ResumeLayout(false);
