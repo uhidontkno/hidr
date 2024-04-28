@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\rare\\source\\repos\\hidr.git\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|c:\\users\\rare\\source\\repos\\hidr.git\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:themeselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,15 +45,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
+              "RelativeDocumentMoniker": "index.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs [Design]",
+              "RelativeToolTip": "index.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:12:33.131Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "themeSelector.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\themeSelector.cs",
+              "RelativeDocumentMoniker": "themeSelector.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\themeSelector.cs [Design]",
+              "RelativeToolTip": "themeSelector.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:59:38.315Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.Designer.cs",
+              "RelativeDocumentMoniker": "index.Designer.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.Designer.cs",
+              "RelativeToolTip": "index.Designer.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T03:08:52.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.resx",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.resx",
+              "RelativeDocumentMoniker": "index.resx",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.resx",
+              "RelativeToolTip": "index.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-28T03:08:52.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "themeSelector.cs",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\themeSelector.cs",
+              "RelativeDocumentMoniker": "themeSelector.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\themeSelector.cs",
+              "RelativeToolTip": "themeSelector.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:59:50.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.cs",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
+              "RelativeDocumentMoniker": "index.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
+              "RelativeToolTip": "index.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxYAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:28:04.967Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "README.TXT",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\packages\\MetroFramework.1.2.0.3\\README.TXT",
               "RelativeDocumentMoniker": "packages\\MetroFramework.1.2.0.3\\README.TXT",
@@ -48,32 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
-              "RelativeDocumentMoniker": "index.cs",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs [Design]*",
-              "RelativeToolTip": "index.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T02:12:33.131Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.cs",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
-              "RelativeDocumentMoniker": "index.cs",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs*",
-              "RelativeToolTip": "index.cs*",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T02:28:04.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -85,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "hidr",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidr.csproj",
               "RelativeDocumentMoniker": "hidr.csproj",

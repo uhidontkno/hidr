@@ -20,17 +20,44 @@ namespace hidr
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue800, Primary.BlueGrey900, Primary.Blue500, Accent.LightBlue200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.Blue800, Primary.Blue900, Accent.Blue200, TextShade.WHITE);
             
         }
 
         private void index_Load(object sender, EventArgs e)
         {
-            themeBtn.BackColor = Color.White;
         }
 
 
         private void themeBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialDrawer1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tabPage2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tabPage2_Layout(object sender, LayoutEventArgs e)
+        {
+            if (tabs.SelectedTab == tabPage2) {
+                new themeSelector().Show();
+                tabs.SelectTab(0);
+            }
+        }
+
+        private void materialLabel2_Click(object sender, EventArgs e)
         {
 
         }
