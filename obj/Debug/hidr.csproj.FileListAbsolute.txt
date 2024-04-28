@@ -1,0 +1,9 @@
+C:\Users\rare\source\repos\hidr\bin\Debug\hidr.exe.config
+C:\Users\rare\source\repos\hidr\bin\Debug\hidr.exe
+C:\Users\rare\source\repos\hidr\bin\Debug\hidr.pdb
+C:\Users\rare\source\repos\hidr\obj\Debug\hidr.csproj.AssemblyReference.cache
+C:\Users\rare\source\repos\hidr\obj\Debug\hidr.Properties.Resources.resources
+C:\Users\rare\source\repos\hidr\obj\Debug\hidr.csproj.GenerateResource.cache
+C:\Users\rare\source\repos\hidr\obj\Debug\hidr.csproj.CoreCompileInputs.cache
+C:\Users\rare\source\repos\hidr\obj\Debug\hidr.exe
+C:\Users\rare\source\repos\hidr\obj\Debug\hidr.pdb
