@@ -10,8 +10,6 @@ C:\Users\rare\source\repos\hidr\obj\Debug\hidr.pdb
 C:\Users\rare\source\repos\hidr.git\bin\Debug\hidr.exe.config
 C:\Users\rare\source\repos\hidr.git\bin\Debug\hidr.exe
 C:\Users\rare\source\repos\hidr.git\bin\Debug\hidr.pdb
-C:\Users\rare\source\repos\hidr.git\bin\Debug\MetroFramework.dll
-C:\Users\rare\source\repos\hidr.git\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.csproj.AssemblyReference.cache
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.index.resources
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.Properties.Resources.resources
@@ -20,3 +18,4 @@ C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.csproj.CoreCompileInputs.cach
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.csproj.Up2Date
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.exe
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.pdb
+C:\Users\rare\source\repos\hidr.git\bin\Debug\MaterialSkin.dll
