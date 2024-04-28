@@ -24,7 +24,10 @@ namespace hidr
 
         private void themeSelector_Load(object sender, EventArgs e)
         {
-
+            var materialSkinManager = MaterialSkinManager.Instance;
+                if (materialSkinManager.Theme == MaterialSkinManager.Themes.LIGHT) {
+                materialSwitch1.Checked = false;
+            }
         }
 
         private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
