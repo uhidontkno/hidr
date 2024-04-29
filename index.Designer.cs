@@ -80,12 +80,12 @@
             this.materialButton3.Depth = 0;
             this.materialButton3.HighEmphasis = true;
             this.materialButton3.Icon = null;
-            this.materialButton3.Location = new System.Drawing.Point(167, 38);
+            this.materialButton3.Location = new System.Drawing.Point(180, 38);
             this.materialButton3.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton3.Name = "materialButton3";
             this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton3.Size = new System.Drawing.Size(166, 36);
+            this.materialButton3.Size = new System.Drawing.Size(153, 36);
             this.materialButton3.TabIndex = 4;
             this.materialButton3.Text = "Math Solver";
             this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -128,7 +128,7 @@
             this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
             this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(143, 36);
+            this.materialButton1.Size = new System.Drawing.Size(156, 36);
             this.materialButton1.TabIndex = 2;
             this.materialButton1.Text = "Skool Cleanup";
             this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -138,15 +138,14 @@
             // 
             // materialLabel2
             // 
-            this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
             this.materialLabel2.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel2.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
             this.materialLabel2.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.materialLabel2.Location = new System.Drawing.Point(73, 3);
+            this.materialLabel2.Location = new System.Drawing.Point(-4, 3);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
-            this.materialLabel2.Size = new System.Drawing.Size(183, 29);
+            this.materialLabel2.Size = new System.Drawing.Size(357, 29);
             this.materialLabel2.TabIndex = 1;
             this.materialLabel2.Text = "Welcome to hidr!";
             this.materialLabel2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -180,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(363, 482);
+            this.ClientSize = new System.Drawing.Size(352, 445);
             this.Controls.Add(this.tabs);
             this.DrawerIndicatorWidth = 4;
             this.DrawerTabControl = this.tabs;
@@ -196,7 +195,6 @@
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.index_KeyPress);
             this.tabs.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.ResumeLayout(false);

@@ -70,7 +70,7 @@ namespace hidr
                 }
             });
             Random r = new Random();
-            await Task.Delay(16);
+            await Task.Delay(39);
 #pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
             if (operation.SelectedIndex != 0)
             {
@@ -86,9 +86,19 @@ namespace hidr
                 });
             } else
             {
-                double result = EvaluateExpression(problem.Text);
-                output.Text = $"Problem: {problem.Text}\r\nSolution: {result}\r\n\r\nTook {(float)time}ms";
-                solved = true;
+                try
+                {
+                    solved = true;
+                    await Task.Delay(39);
+                    double result = EvaluateExpression(problem.Text);
+                    output.Text = $"Problem: {problem.Text}\r\nSolution: {result}\r\n\r\nTook {(float)time}ms";
+                }
+                catch (Exception ex) {
+                    solved = true;
+                    await Task.Delay(39);
+                    output.Text = $"Error: {ex.Message}\r\n\r\nTook {(float)time}ms";
+                    
+                }
             }
             
         }
