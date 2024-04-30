@@ -79,6 +79,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cabfiles.cs" />
+    <Compile Include="cmdbypass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cmdbypass.Designer.cs">
+      <DependentUpon>cmdbypass.cs</DependentUpon>
+    </Compile>
     <Compile Include="index.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     <Compile Include="themeSelector.Designer.cs">
       <DependentUpon>themeSelector.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="cmdbypass.resx">
+      <DependentUpon>cmdbypass.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="index.resx">
       <DependentUpon>index.cs</DependentUpon>
     </EmbeddedResource>
