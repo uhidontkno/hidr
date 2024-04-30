@@ -1,6 +1,6 @@
 ﻿namespace hidr
 {
-    partial class MathSolver
+    partial class mathSolver
     {
         /// <summary>
         /// Required designer variable.

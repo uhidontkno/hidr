@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace hidr
 {
-    public partial class MathSolver : Form
+    public partial class mathSolver : Form
     {
-        public MathSolver()
+        public mathSolver()
         {
             InitializeComponent();
             var materialSkinManager = MaterialSkinManager.Instance;

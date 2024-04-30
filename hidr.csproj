@@ -85,11 +85,17 @@
     <Compile Include="index.Designer.cs">
       <DependentUpon>index.cs</DependentUpon>
     </Compile>
-    <Compile Include="MathSolver.cs">
+    <Compile Include="mathSolver.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MathSolver.Designer.cs">
-      <DependentUpon>MathSolver.cs</DependentUpon>
+    <Compile Include="mathSolver.Designer.cs">
+      <DependentUpon>mathSolver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mouseJiggler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mouseJiggler.Designer.cs">
+      <DependentUpon>mouseJiggler.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -108,8 +114,11 @@
     <EmbeddedResource Include="index.resx">
       <DependentUpon>index.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MathSolver.resx">
-      <DependentUpon>MathSolver.cs</DependentUpon>
+    <EmbeddedResource Include="mathSolver.resx">
+      <DependentUpon>mathSolver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mouseJiggler.resx">
+      <DependentUpon>mouseJiggler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -137,6 +146,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\cbm1.cmd" />
     <None Include="Resources\kak12.cmd" />
     <None Include="Resources\klsc.cmd" />
   </ItemGroup>

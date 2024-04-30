@@ -9,6 +9,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Input;
 using MaterialSkin;
 using MaterialSkin.Controls;
 namespace hidr
@@ -31,7 +32,7 @@ namespace hidr
        
         async private void index_Load(object sender, EventArgs e)
         {
-
+            
             this.Size = new Size(349, 418);
             this.Tag = "mainWindow";
             while (true) {
@@ -138,14 +139,19 @@ namespace hidr
         {
         }
 
-        private void index_KeyDown(object sender, KeyEventArgs e)
+        private void index_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
         {
            
         }
 
         private void materialButton3_Click(object sender, EventArgs e)
         {
-            new MathSolver().ShowDialog();
+            new mathSolver().ShowDialog();
+        }
+
+        private void materialButton5_Click(object sender, EventArgs e)
+        {
+            new mouseJiggler().Show();
         }
     }
 }

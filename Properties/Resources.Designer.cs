@@ -62,6 +62,21 @@ namespace hidr.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to @echo off
+        ///echo Command Prompt
+        ///echo.
+        ///:a
+        ///set /p comm=&quot;%CD%&gt;&quot;
+        ///%comm%
+        ///goto a.
+        /// </summary>
+        internal static string cbm1 {
+            get {
+                return ResourceManager.GetString("cbm1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to @echo off
         ///
         ///:: BatchGotAdmin
         ///:-------------------------------------
