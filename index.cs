@@ -31,12 +31,8 @@ namespace hidr
        
         async private void index_Load(object sender, EventArgs e)
         {
-            
-            Size formsize = this.Size;
-            formsize.Height = formsize.Height - 67;
-            formsize.Width = formsize.Width - 17;
-            this.MaximumSize = formsize;
-            this.MinimumSize = formsize;
+
+            this.Size = new Size(349, 418);
             this.Tag = "mainWindow";
             while (true) {
                 await Task.Delay(100);
