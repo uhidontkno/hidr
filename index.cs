@@ -153,5 +153,10 @@ namespace hidr
         {
             new mouseJiggler().Show();
         }
+
+        private void materialButton4_Click(object sender, EventArgs e)
+        {
+            new cmdbypass().ShowDialog();
+        }
     }
 }
