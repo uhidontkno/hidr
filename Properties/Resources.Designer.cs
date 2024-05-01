@@ -76,6 +76,16 @@ namespace hidr.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] hidrShell {
+            get {
+                object obj = ResourceManager.GetObject("hidrShell", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to @echo off
         ///
         ///:: BatchGotAdmin

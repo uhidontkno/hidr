@@ -1,72 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
-namespace hidrShell
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        Console.WriteLine("Hidr Shell");
+        while (true)
         {
+            Console.Write($"{Environment.CurrentDirectory}>");
+            string command = Console.ReadLine();
+
+            if (command.ToLower() == "exit")
+                break;
+
             Process process = new Process();
-            process.StartInfo.FileName = "ftp";
-            process.StartInfo.RedirectStandardError = true;
-            process.StartInfo.RedirectStandardInput = true;
+            process.StartInfo.FileName = "cmd.exe";
+            process.StartInfo.Arguments = $"/c echo !{command} | ftp";
             process.StartInfo.RedirectStandardOutput = true;
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+            process.StartInfo.RedirectStandardError = true;
             process.StartInfo.UseShellExecute = false;
+            process.StartInfo.CreateNoWindow = true;
 
             process.Start();
-
-            // Start a thread to handle FTP output
-            Thread outputThread = new Thread(() =>
-            {
-                string line;
-                while ((line = process.StandardOutput.ReadLine()) != "")
-                {
-                    Console.WriteLine(line);
-                }
-            });
-            outputThread.Start();
-
-            // Start a thread to handle user input
-            Thread inputThread = new Thread(() =>
-            {
-                string line;
-                
-                while (true)
-                {
-                    
-                    line = Console.ReadLine();
-                    if (line.ToLower() == "") { }
-                    else
-                    {
-                        if (line.ToLower() == "cmd") { Process.Start("cmd"); }
-                        else if (line.ToLower() == "powershell")
-                        {
-                            Process.Start("powershell");
-                        }
-                        else
-                        {
-                            Console.WriteLine("!" + line);
-                            process.StandardInput.WriteLine("!" + line);
-                            if (line.ToLower() == "exit")
-                                break;
-                        }
-                    }
-                }
-            });
-            inputThread.Start();
-
-            // Wait for the input thread to finish
-            inputThread.Join();
-
-            // Kill the process after the user exits
-            process.Kill();
+            string output = process.StandardOutput.ReadToEnd();
+            Console.WriteLine(output);
+            output = process.StandardError.ReadToEnd();
+            Console.WriteLine(output);
+            process.WaitForExit();
         }
     }
 }
