@@ -37,6 +37,7 @@ namespace hidr
             this.Tag = "mainWindow";
             while (true) {
                 await Task.Delay(100);
+                this.Size = new Size(349, 418);
                 if (Keyboard.IsKeyDown(Keys.F4)) {
                     if (vanished == true)
                     {
