@@ -24,9 +24,9 @@ class Program
 
             process.Start();
             string output = process.StandardOutput.ReadToEnd();
-            Console.WriteLine(output);
+            Console.Write(output);
             output = process.StandardError.ReadToEnd();
-            Console.WriteLine(output);
+            Console.Write(output);
             process.WaitForExit();
         }
     }

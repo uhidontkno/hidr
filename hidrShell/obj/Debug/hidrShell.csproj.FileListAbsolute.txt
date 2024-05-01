@@ -5,3 +5,10 @@ C:\Users\rare\source\repos\hidrShell\obj\Debug\hidrShell.csproj.AssemblyReferenc
 C:\Users\rare\source\repos\hidrShell\obj\Debug\hidrShell.csproj.CoreCompileInputs.cache
 C:\Users\rare\source\repos\hidrShell\obj\Debug\hidrShell.exe
 C:\Users\rare\source\repos\hidrShell\obj\Debug\hidrShell.pdb
+C:\Users\rare\source\repos\hidr.git\hidrShell\bin\Debug\hidrShell.exe.config
+C:\Users\rare\source\repos\hidr.git\hidrShell\bin\Debug\hidrShell.exe
+C:\Users\rare\source\repos\hidr.git\hidrShell\bin\Debug\hidrShell.pdb
+C:\Users\rare\source\repos\hidr.git\hidrShell\obj\Debug\hidrShell.csproj.AssemblyReference.cache
+C:\Users\rare\source\repos\hidr.git\hidrShell\obj\Debug\hidrShell.csproj.CoreCompileInputs.cache
+C:\Users\rare\source\repos\hidr.git\hidrShell\obj\Debug\hidrShell.exe
+C:\Users\rare\source\repos\hidr.git\hidrShell\obj\Debug\hidrShell.pdb
