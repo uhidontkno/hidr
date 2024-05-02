@@ -99,7 +99,7 @@
             this.materialButton3.NoAccentTextColor = System.Drawing.Color.Empty;
             this.materialButton3.Size = new System.Drawing.Size(310, 36);
             this.materialButton3.TabIndex = 7;
-            this.materialButton3.Text = "Method 2: Powershell";
+            this.materialButton3.Text = "Method 3: Powershell";
             this.materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.materialButton3.UseAccentColor = false;
             this.materialButton3.UseVisualStyleBackColor = true;
