@@ -90,12 +90,12 @@
             this.materialButton5.Depth = 0;
             this.materialButton5.HighEmphasis = true;
             this.materialButton5.Icon = null;
-            this.materialButton5.Location = new System.Drawing.Point(180, 76);
+            this.materialButton5.Location = new System.Drawing.Point(16, 76);
             this.materialButton5.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton5.Name = "materialButton5";
             this.materialButton5.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton5.Size = new System.Drawing.Size(153, 74);
+            this.materialButton5.Size = new System.Drawing.Size(317, 36);
             this.materialButton5.TabIndex = 6;
             this.materialButton5.Text = "VIRTUAL MOUSE JIGGLER";
             this.materialButton5.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -111,12 +111,12 @@
             this.materialButton4.Depth = 0;
             this.materialButton4.HighEmphasis = true;
             this.materialButton4.Icon = null;
-            this.materialButton4.Location = new System.Drawing.Point(16, 76);
+            this.materialButton4.Location = new System.Drawing.Point(180, 115);
             this.materialButton4.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton4.Name = "materialButton4";
             this.materialButton4.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton4.Size = new System.Drawing.Size(156, 36);
+            this.materialButton4.Size = new System.Drawing.Size(153, 36);
             this.materialButton4.TabIndex = 5;
             this.materialButton4.Text = "CMD Bypass";
             this.materialButton4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -258,7 +258,7 @@
             this.materialButton6.Depth = 0;
             this.materialButton6.HighEmphasis = true;
             this.materialButton6.Icon = null;
-            this.materialButton6.Location = new System.Drawing.Point(16, 114);
+            this.materialButton6.Location = new System.Drawing.Point(16, 115);
             this.materialButton6.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton6.Name = "materialButton6";
@@ -275,7 +275,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(381, 523);
+            this.ClientSize = new System.Drawing.Size(349, 450);
             this.Controls.Add(this.tabs);
             this.DrawerIndicatorWidth = 4;
             this.DrawerTabControl = this.tabs;
