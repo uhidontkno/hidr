@@ -121,7 +121,9 @@ namespace hidr
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
+            materialButton1.Enabled = false;
             new skoolcleanup().ShowDialog();
+            materialButton1.Enabled = true;
         }
 
         private void materialButton2_Click(object sender, EventArgs e)
@@ -148,17 +150,23 @@ namespace hidr
 
         private void materialButton3_Click(object sender, EventArgs e)
         {
+            materialButton3.Enabled = false;
             new mathSolver().ShowDialog();
+            materialButton3.Enabled = true;
         }
 
         private void materialButton5_Click(object sender, EventArgs e)
         {
+            materialButton5.Enabled = false;
             new mouseJiggler().Show();
+            materialButton5.Enabled = true;
         }
 
         private void materialButton4_Click(object sender, EventArgs e)
         {
+            materialButton4.Enabled = false;
             new cmdbypass().ShowDialog();
+            materialButton4.Enabled = true;
         }
 
         async private void materialButton6_Click(object sender, EventArgs e)
