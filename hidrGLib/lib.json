@@ -1,5 +1,5 @@
 {
-  "len": 1,
+  "len": 2,
   "g": [
     [
       "Space Cadet Pinball",
@@ -8,6 +8,15 @@
         "assets/pball.dat",
         "zip",
         "PINBALL.exe"
+      ]
+    ],
+	[
+      "Minesweeper",
+      "winmine.png",
+      [
+        "assets/winm.dat",
+        "zip",
+        "winmine.exe"
       ]
     ]
   ]
