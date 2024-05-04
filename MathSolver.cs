@@ -28,13 +28,17 @@ namespace hidr
             string operationStr = "";
             if (operation.SelectedIndex == 0)
             {
-                operationStr = "solve";
+                operationStr = "simplesolve";
             }
             else if (operation.SelectedIndex == 1)
             {
-                operationStr = "simplify";
+                operationStr = "solve";
             }
             else if (operation.SelectedIndex == 2)
+            {
+                operationStr = "simplify";
+            }
+            else if (operation.SelectedIndex == 3)
             {
                 operationStr = "factor";
             }
@@ -111,6 +115,16 @@ namespace hidr
         }
 
         private void MathSolver_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void operation_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialLabel1_Click(object sender, EventArgs e)
         {
 
         }

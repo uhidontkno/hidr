@@ -63,6 +63,7 @@
             this.materialLabel1.TabIndex = 3;
             this.materialLabel1.Text = "Math Solver";
             this.materialLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.materialLabel1.Click += new System.EventHandler(this.materialLabel1_Click);
             // 
             // problem
             // 
@@ -70,7 +71,7 @@
             this.problem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.problem.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.problem.Depth = 0;
-            this.problem.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.problem.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.problem.HelperText = "Enter a problem";
             this.problem.HideSelection = true;
             this.problem.Hint = "Enter a problem";
@@ -80,6 +81,7 @@
             this.problem.MouseState = MaterialSkin.MouseState.OUT;
             this.problem.Name = "problem";
             this.problem.PasswordChar = '\0';
+            this.problem.PrefixSuffixText = null;
             this.problem.ReadOnly = false;
             this.problem.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.problem.SelectedText = "";
@@ -131,13 +133,14 @@
             this.operation.DropDownHeight = 118;
             this.operation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.operation.DropDownWidth = 121;
-            this.operation.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.operation.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.operation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.operation.FormattingEnabled = true;
             this.operation.Hint = "Operation";
             this.operation.IntegralHeight = false;
             this.operation.ItemHeight = 29;
             this.operation.Items.AddRange(new object[] {
+            "Evaluate",
             "Solve",
             "Simplify",
             "Factorize"});
@@ -149,6 +152,7 @@
             this.operation.StartIndex = 0;
             this.operation.TabIndex = 8;
             this.operation.UseTallSize = false;
+            this.operation.SelectedIndexChanged += new System.EventHandler(this.operation_SelectedIndexChanged);
             // 
             // materialButton1
             // 
@@ -171,7 +175,7 @@
             this.materialButton1.UseVisualStyleBackColor = true;
             this.materialButton1.Click += new System.EventHandler(this.materialButton1_Click);
             // 
-            // MathSolver
+            // mathSolver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -184,7 +188,7 @@
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "MathSolver";
+            this.Name = "mathSolver";
             this.ShowIcon = false;
             this.Text = "Math Solver";
             this.Load += new System.EventHandler(this.MathSolver_Load);

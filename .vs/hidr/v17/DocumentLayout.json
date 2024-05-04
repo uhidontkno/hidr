@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\rare\\source\\repos\\hidr.git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\cmdbypass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -34,16 +42,8 @@
       "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:skoolcleanup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\cabfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:cabfiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|solutionrelative:mathsolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA266773-431A-4FAF-AC94-1E4283F42354}|hidr.csproj|C:\\Users\\rare\\source\\repos\\hidr.git\\mousejiggler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,45 +78,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidrShell\\Program.cs",
-              "RelativeDocumentMoniker": "hidrShell\\Program.cs",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidrShell\\Program.cs",
-              "RelativeToolTip": "hidrShell\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBMAAAA6AAAA",
+              "Title": "cmdbypass.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\cmdbypass.cs",
+              "RelativeDocumentMoniker": "cmdbypass.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\cmdbypass.cs [Design]",
+              "RelativeToolTip": "cmdbypass.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T01:54:52.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T23:37:19.075Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "skoolcleanup.cs",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
+              "RelativeDocumentMoniker": "skoolcleanup.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
+              "RelativeToolTip": "skoolcleanup.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:45:44.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "hidr",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidr.csproj",
+              "RelativeDocumentMoniker": "hidr.csproj",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidr.csproj",
+              "RelativeToolTip": "hidr.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-28T01:19:13.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mathSolver.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\mathSolver.cs",
+              "RelativeDocumentMoniker": "mathSolver.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\mathSolver.cs [Design]",
+              "RelativeToolTip": "mathSolver.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T22:20:34.899Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "index.cs",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
-              "RelativeDocumentMoniker": "index.cs",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
-              "RelativeToolTip": "index.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAmwJoAAAAMAAAA",
+              "Title": "mathSolver.cs",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\mathSolver.cs",
+              "RelativeDocumentMoniker": "mathSolver.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\mathSolver.cs",
+              "RelativeToolTip": "mathSolver.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAYwHsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T02:28:04.967Z",
+              "WhenOpened": "2024-04-28T22:29:14.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "cmdbypass.cs",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\cmdbypass.cs",
-              "RelativeDocumentMoniker": "cmdbypass.cs",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\cmdbypass.cs",
-              "RelativeToolTip": "cmdbypass.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAowEYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:37:50.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "index.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
               "RelativeDocumentMoniker": "index.cs",
@@ -129,41 +150,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "cmdbypass.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\cmdbypass.cs",
-              "RelativeDocumentMoniker": "cmdbypass.cs",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\cmdbypass.cs [Design]",
-              "RelativeToolTip": "cmdbypass.cs [Design]",
+              "Title": "index.cs",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
+              "RelativeDocumentMoniker": "index.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\index.cs",
+              "RelativeToolTip": "index.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAwJUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:37:19.075Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "skoolcleanup.cs",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
-              "RelativeDocumentMoniker": "skoolcleanup.cs",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
-              "RelativeToolTip": "skoolcleanup.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T14:45:44.162Z"
+              "WhenOpened": "2024-04-28T02:28:04.967Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "hidr",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidr.csproj",
-              "RelativeDocumentMoniker": "hidr.csproj",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidr.csproj",
-              "RelativeToolTip": "hidr.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-28T01:19:13.784Z"
+              "Title": "cmdbypass.cs",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\cmdbypass.cs",
+              "RelativeDocumentMoniker": "cmdbypass.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\cmdbypass.cs",
+              "RelativeToolTip": "cmdbypass.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAowEYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T23:37:50.432Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidrShell\\Program.cs",
+              "RelativeDocumentMoniker": "hidrShell\\Program.cs",
+              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\hidrShell\\Program.cs",
+              "RelativeToolTip": "hidrShell\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T01:54:52.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "skoolcleanup.cs [Design]",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\skoolcleanup.cs",
               "RelativeDocumentMoniker": "skoolcleanup.cs",
@@ -174,19 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "mathSolver.cs",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\mathSolver.cs",
-              "RelativeDocumentMoniker": "mathSolver.cs",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\mathSolver.cs",
-              "RelativeToolTip": "mathSolver.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAowHIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:29:14.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "cabfiles.cs",
               "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\cabfiles.cs",
               "RelativeDocumentMoniker": "cabfiles.cs",
@@ -195,17 +208,6 @@
               "ViewState": "AQIAABwAAAAAAAAAAAAxwEAAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T21:34:12.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "mathSolver.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rare\\source\\repos\\hidr.git\\mathSolver.cs",
-              "RelativeDocumentMoniker": "mathSolver.cs",
-              "ToolTip": "C:\\Users\\rare\\source\\repos\\hidr.git\\mathSolver.cs [Design]",
-              "RelativeToolTip": "mathSolver.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T22:20:34.899Z"
             },
             {
               "$type": "Document",
