@@ -163,6 +163,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\CAB1.cab">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="hidrShell\bin\Debug\hidrShell.exe" />
     <Content Include="hidr_icon.ico" />
     <Content Include="Resources\CAB0.cab">

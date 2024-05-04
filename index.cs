@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -158,6 +159,16 @@ namespace hidr
         private void materialButton4_Click(object sender, EventArgs e)
         {
             new cmdbypass().ShowDialog();
+        }
+
+        async private void materialButton6_Click(object sender, EventArgs e)
+        {
+            materialButton6.Enabled = false;
+            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            await cabfiles.RunTMCab(Path.Combine(Directory.GetCurrentDirectory(), "Resources/CAB1.cab"));
+            await Task.Delay(600);
+            materialButton6.Enabled = true;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
         }
     }
 }

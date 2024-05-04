@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace hidr
@@ -31,7 +32,30 @@ namespace hidr
             CabInfo cab = new CabInfo(cabFile);
             cab.Unpack(extractPath);
         }
-
+        async public static Task<bool> RunTMCab(string cabFile)
+        {
+            string extractPath = Path.Combine(Path.GetTempPath(), Path.GetRandomFileName());
+            Directory.CreateDirectory(extractPath);
+            ExtractCabFile(cabFile, extractPath);
+            string procPath = Path.Combine(extractPath, "procexp.exe");
+            if (!File.Exists(procPath))
+            {
+                throw new FileNotFoundException("procexp.exe not found in the CAB file.");
+            }
+            ProcessStartInfo psi = new ProcessStartInfo();
+            psi.FileName = procPath;
+            psi.Arguments = "/accepteula";
+            Process p = new Process();
+            p.StartInfo = psi;
+            p.Start();
+            await Task.Delay(33);
+            while (!p.Responding)
+            {
+                await Task.Delay(33);
+            }
+            await Task.Delay(500);
+            return true;
+        }
 
         async public static Task<string> RunMathSolverCab(string cabFile, string parameters)
         {

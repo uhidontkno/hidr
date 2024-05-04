@@ -27,3 +27,4 @@ C:\Users\rare\source\repos\hidr.git\bin\Debug\Microsoft.Deployment.Compression.C
 C:\Users\rare\source\repos\hidr.git\bin\Debug\Microsoft.Deployment.Compression.dll
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.mouseJiggler.resources
 C:\Users\rare\source\repos\hidr.git\obj\Debug\hidr.cmdbypass.resources
+C:\Users\rare\source\repos\hidr.git\bin\Debug\Resources\CAB1.cab
