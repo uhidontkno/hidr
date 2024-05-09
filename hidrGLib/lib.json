@@ -15,7 +15,7 @@
       "winmine.png",
       [
         "assets/winm.dat",
-        "zip",
+        "cab",
         "winmine.exe"
       ]
     ]
